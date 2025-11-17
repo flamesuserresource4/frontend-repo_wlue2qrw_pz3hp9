@@ -11,7 +11,7 @@ export default function Hero() {
               Book trusted local services in minutes
             </h1>
             <p className="mt-4 text-lg text-slate-600">
-              MoBook connects customers with nearby professionals — from beauty and wellness to home services and repairs. For providers, it\'s an all-in-one system to get discovered, accept bookings, and stay organized.
+              MoBook connects customers with nearby professionals — from beauty and wellness to home services and repairs. For providers, it's an all-in-one system to get discovered, accept bookings, and stay organized.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
@@ -27,7 +27,7 @@ export default function Hero() {
             <div className="mt-8 bg-white/80 backdrop-blur border border-slate-200 rounded-xl p-4 shadow-sm">
               <div className="flex items-center gap-3">
                 <Search className="h-5 w-5 text-slate-400" />
-                <input className="flex-1 outline-none bg-transparent" placeholder="Try \"hairdresser in Mumbai\"" />
+                <input className="flex-1 outline-none bg-transparent" placeholder='Try "hairdresser in Mumbai"' />
                 <button className="px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700">Search</button>
               </div>
             </div>
