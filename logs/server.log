@@ -1,0 +1,62 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 296 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.7.175:3000/
+5:53:53 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Hero.jsx:30:110: ERROR: Unexpected backslash in JSX element
+5:53:54 AM [vite] ✨ new dependencies optimized: lucide-react
+5:53:54 AM [vite] ✨ optimized dependencies changed. reloading
+5:53:55 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Hero.jsx:30:110: ERROR: Unexpected backslash in JSX element
+The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-I4MZPW7S.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
+5:53:57 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Hero.jsx:30:110: ERROR: Unexpected backslash in JSX element
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Hero.jsx:30:110
+  
+  Unexpected backslash in JSX element
+  28 |                <div className="flex items-center gap-3">
+  29 |                  <Search className="h-5 w-5 text-slate-400" />
+  30 |                  <input className="flex-1 outline-none bg-transparent" placeholder="Try \"hairdresser in Mumbai\"" />
+     |                                                                                                                ^
+  31 |                  <button className="px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700">Search</button>
+  32 |                </div>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+5:54:17 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Hero.jsx:30:110: ERROR: Unexpected backslash in JSX element
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Hero.jsx:30:110
+  
+  Unexpected backslash in JSX element
+  28 |                <div className="flex items-center gap-3">
+  29 |                  <Search className="h-5 w-5 text-slate-400" />
+  30 |                  <input className="flex-1 outline-none bg-transparent" placeholder="Try \"hairdresser in Mumbai\"" />
+     |                                                                                                                ^
+  31 |                  <button className="px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700">Search</button>
+  32 |                </div>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
